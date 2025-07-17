@@ -1,14 +1,3 @@
-ITEM {
-	type = "item",
-	name = "coal-ash",
-	icon = "__py-nightmare-mode__/graphics/coal_ash.png",
-	icon_size = 64,
-	flags = {},
-	subgroup = "py-items",
-	order = "ashc",
-	stack_size = 1000,
-}
-
 data.raw.item["ash"].icon = "__py-nightmare-mode__/graphics/coal_ash.png"
 
 ITEM {
@@ -26,7 +15,7 @@ ITEM {
 	type = "item",
 	name = "clinkers",
 	icon = "__py-nightmare-mode__/graphics/clinkers.png",
-	icon_size = 32,
+	icon_size = 64,
 	flags = {},
 	subgroup = "py-items",
 	order = "clinkers",
