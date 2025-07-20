@@ -11,7 +11,7 @@ RECIPE {
 		{type = "item", name = "coal-dust", amount = 4}
 	},
 	main_product = "coal-dust",
-	icons = py.recipe_composite_icon("clinkers", "coal-dust"),
+	icons = py.composite_icon("clinkers", "coal-dust"),
 	--icon = "__pycoalprocessinggraphics__/graphics/icons/ash.png",
 	icon_size = 64,
 }:add_unlock("crusher")
@@ -65,10 +65,10 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coal-dust",  amount = 1, probability = 0.5},
-		{type = "item", name = "calcinates",  amount = 2},
+		{type = "item", name = "calcinates",  amount = 6},
         {type = "item", name = "soot", amount = 1, probability = 0.05}
     },
-    icons = py.recipe_composite_icon("ash-separation", "wood-ash"),
+    icons = py.composite_icon("ash-separation", "wood-ash"),
     icon_size = 32,
     subgroup = "py-items-class",
     order = "f"
