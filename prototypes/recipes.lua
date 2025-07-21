@@ -56,19 +56,39 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "wood-ash-separation",
+    name = "clean-ash-separation",
     category = "solid-separator",
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "wood-ash", amount = 10}
+        {type = "item", name = "clean-ash", amount = 10}
     },
     results = {
         {type = "item", name = "coal-dust",  amount = 1, probability = 0.5},
 		{type = "item", name = "calcinates",  amount = 6},
         {type = "item", name = "soot", amount = 1, probability = 0.05}
     },
-    icons = py.composite_icon("ash-separation", "wood-ash"),
+    icons = py.composite_icon("ash-separation", "clean-ash"),
+    icon_size = 32,
+    subgroup = "py-items-class",
+    order = "f"
+}
+
+RECIPE {
+	type = "recipe",
+    name = "jerky-to-ores",
+    category = "atomizer",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "dried-meat", amount = 15}
+    },
+    results = {
+        {type = "item", name = "iron-ore",  amount = 40},
+		{type = "item", name = "copper-ore",  amount = 15},
+        {type = "item", name = "ore-zinc", amount = 5}
+    },
+    icons = py.composite_icon("ash-separation", "clean-ash"),
     icon_size = 32,
     subgroup = "py-items-class",
     order = "f"

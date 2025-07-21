@@ -2,7 +2,7 @@ data.raw.item["ash"].icon = "__py-nightmare-mode__/graphics/coal_ash.png"
 
 ITEM {
 	type = "item",
-	name = "wood-ash",
+	name = "clean-ash",
 	icon = "__py-nightmare-mode__/graphics/wood_ash.png",
 	icon_size = 64,
 	flags = {},
