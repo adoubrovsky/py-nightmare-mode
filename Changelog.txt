@@ -1,0 +1,4 @@
+Version 0.1.0
+Date: ????-??-??
+Changes
+	- Zinc ore now needs Zinc drilling fluid to mine

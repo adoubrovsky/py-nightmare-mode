@@ -12,7 +12,6 @@ RECIPE {
 	},
 	main_product = "coal-dust",
 	icons = py.composite_icon("clinkers", "coal-dust"),
-	--icon = "__pycoalprocessinggraphics__/graphics/icons/ash.png",
 	icon_size = 64,
 }:add_unlock("crusher")
 
@@ -92,4 +91,23 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-items-class",
     order = "f"
+}
+
+RECIPE {
+	type = "recipe",
+    name = "zinc-drilling-fluid",
+    category = "reformer",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "aromatics", amount = 100},
+		{type = "fluid", name = "scrude", amount = 50},
+		{type = "fluid", name = "light-oil", amount = 50}
+    },
+    results = {
+        {type = "fluid", name = "zinc-drilling-fluid",  amount = 150},
+		{type = "fluid", name = "gasoline",  amount = 25}
+    },
+	main_product = "zinc-drilling-fluid",
+    order = "a"
 }
