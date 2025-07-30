@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "zinc-drilling-fluid",
-    icon = "__py-nightmare-mode__/graphics/zinc-drilling-fluid.png",
+    icon = "__py-nightmare-mode__/graphics/icons/zinc-drilling-fluid.png",
     icon_size = 64,
     default_temperature = 10,
     gas_temperature = 15,

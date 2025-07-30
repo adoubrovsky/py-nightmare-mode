@@ -1,9 +1,9 @@
-data.raw.item["ash"].icon = "__py-nightmare-mode__/graphics/coal_ash.png"
+data.raw.item["ash"].icon = "__py-nightmare-mode__/graphics/icons/coal_ash.png"
 
 ITEM {
 	type = "item",
 	name = "clean-ash",
-	icon = "__py-nightmare-mode__/graphics/wood_ash.png",
+	icon = "__py-nightmare-mode__/graphics/icons/wood_ash.png",
 	icon_size = 64,
 	flags = {},
 	subgroup = "py-items",
@@ -14,7 +14,7 @@ ITEM {
 ITEM {
 	type = "item",
 	name = "clinkers",
-	icon = "__py-nightmare-mode__/graphics/clinkers.png",
+	icon = "__py-nightmare-mode__/graphics/icons/clinkers.png",
 	icon_size = 64,
 	flags = {},
 	subgroup = "py-items",
