@@ -95,19 +95,41 @@ RECIPE {
 
 RECIPE {
 	type = "recipe",
-  name = "zinc-drilling-fluid",
-  category = "reformer",
-  enabled = false,
-  energy_required = 5,
-  ingredients = {
+	name = "zinc-drilling-fluid",
+	category = "reformer",
+	enabled = false,
+	energy_required = 5,
+	ingredients = {
       {type = "fluid", name = "aromatics", amount = 100},
 			{type = "fluid", name = "scrude", amount = 50},
 			{type = "fluid", name = "light-oil", amount = 50}
-  },
-  results = {
-      {type = "fluid", name = "zinc-drilling-fluid",  amount = 150},
+	},
+	results = {
+			{type = "fluid", name = "zinc-drilling-fluid",  amount = 150},
 			{type = "fluid", name = "gasoline",  amount = 25}
   },
 	main_product = "zinc-drilling-fluid",
-  order = "a"
+	order = "a"
+}
+
+RECIPE{
+	type = "recipe",
+	name = "py-science-pack-5",
+	icon = "__py-nightmare-mode__/graphics/icons/py-science-pack-5.png",
+	icon_size = 64,
+	ingredients = {},
+	results = {
+		{type = "item", name = "py-science-pack-5", amount = 1}
+	}
+}
+
+RECIPE{
+	type = "recipe",
+	name = "py-science-pack-6",
+	icon = "__py-nightmare-mode__/graphics/icons/py-science-pack-6.png",
+	icon_size = 64,
+	ingredients = {},
+	results = {
+		{type = "item", name = "py-science-pack-6", amount = 1}
+	}
 }
