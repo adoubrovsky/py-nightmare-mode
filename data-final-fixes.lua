@@ -24,3 +24,13 @@ RECIPE("ash3"):replace_result("ash", "clean-ash")
 RECIPE("planter-box"):replace_ingredient("calcinates", "clean-ash")
 
 RECIPE("biomass-dried-meat"):remove_unlock("compost"):set_fields{hidden = true}
+
+-- New modules for repro-complex
+
+local complexes = {"rc-mk01", "rc-mk02", "rc-mk03", "rc-mk04"}
+local new_modules = {"titan"}
+
+for _,name in pairs(complexes) do
+	local complex = data.raw["assembling-machine"][name]
+	complex.allowed_module_categories = py.merge(complex.allowed_module_categories, new_modules)
+end
