@@ -105,13 +105,13 @@ RECIPE {
     enabled = false,
     energy_required = 300,
     ingredients = {
-        {type = "item",  name = "alien-sample-03",       amount = 2},
+        {type = "item",  name = "alien-sample-03",       amount = 30},
         {type = "item",  name = "cdna",                  amount = 5},
         {type = "item",  name = "bio-sample",            amount = 20},
-        {type = "item",  name = "antelope-codex",        amount = 2},
+        {type = "item",  name = "titan-codex",        amount = 2},
         {type = "item",  name = "earth-megalodon-sample", amount = 1},
         {type = "fluid", name = "fetal-serum",           amount = 100},
-        {type = "fluid", name = "tritium",               amount = 60},
+        {type = "item", name = "meat",               amount = 300},
     },
     results = {
         {type = "item", name = "titan", amount = 1},
