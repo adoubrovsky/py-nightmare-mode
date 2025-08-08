@@ -2,7 +2,7 @@
   "name": "py-nightmare-mode",
   "version": "0.0.1",
   "title": "Py Nightmare Mode",
-  "author": "KinoIsSmelly42069,LambdaLemon",
+  "author": "Kino , LambdaLemon",
   "factorio_version": "2.0",
   "dependencies": ["base >= 2.0", "pyalternativeenergy", "pyhardmode"],
   "description": "Theres no such thing as a free lunch."
