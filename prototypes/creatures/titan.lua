@@ -240,3 +240,5 @@ py.autorecipes {
 		},
 	}
 }
+
+require("titan-rendering")
