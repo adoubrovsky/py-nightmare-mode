@@ -1,3 +1,5 @@
+require "prototypes/compostfix"
+
 for i, item in pairs(data.raw.item) do
     if item.fuel_category ~= nil and item.fuel_category == "biomass" then
         data.raw.item[item.name].burnt_result = "clean-ash"
