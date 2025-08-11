@@ -94,7 +94,7 @@ RECIPE {
 }
 
 RECIPE {
-	type = "recipe",
+  type = "recipe",
   name = "zinc-drilling-fluid",
   category = "reformer",
   enabled = false,
@@ -105,9 +105,28 @@ RECIPE {
 			{type = "fluid", name = "light-oil", amount = 50}
   },
   results = {
-      {type = "fluid", name = "zinc-drilling-fluid",  amount = 150},
-			{type = "fluid", name = "gasoline",  amount = 25}
+	{type = "fluid", name = "zinc-drilling-fluid",  amount = 150},
+	{type = "fluid", name = "gasoline",  amount = 25}
   },
 	main_product = "zinc-drilling-fluid",
   order = "a"
-}
+}:add_unlock("electronics")
+
+RECIPE {
+	type = "recipe",
+	name = "titanium-drilling-fluid",
+	category = "reformer",
+	enabled = false,
+	energy_required = 5,
+	ingredients = {
+		{type = "fluid", name = "acetylene", amount = 100},
+		{type = "fluid", name = "anthracene-oil", amount = 50},
+		{type = "fluid", name = "gasoline", amount = 50}
+	},
+	results = {
+    	{type = "fluid", name = "titanium-drilling-fluid",  amount = 150},
+		{type = "fluid", name = "light-oil",  amount = 25}
+	},
+	main_product = "titanium-drilling-fluid",
+	order = "a"
+}:add_unlock("alloys-mk01")

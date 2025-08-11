@@ -12,6 +12,8 @@ data.raw.recipe["calcinate-separation"]:remove_unlock("fluid-separation")
 data.raw.recipe["calcinate-separation"]:add_unlock("ash-separation")
 data.raw.recipe["clean-ash-separation"]:add_unlock("ash-separation")
 RECIPE("jerky-to-ores"):add_unlock("molecular-decohesion")
-RECIPE("zinc-drilling-fluid"):add_unlock("electronics")
 
 data.raw.resource["ore-zinc"].minable.required_fluid = "zinc-drilling-fluid"
+data.raw.resource["ore-titanium"].minable.required_fluid = "titanium-drilling-fluid"
+RECIPE("mining-titanium"):replace_ingredient("acetylene", "titanium-drilling-fluid")
+RECIPE("mining-zinc"):replace_ingredient("syngas", "zinc-drilling-fluid")

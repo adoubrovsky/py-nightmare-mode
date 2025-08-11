@@ -22,5 +22,4 @@ RECIPE("ash-bone"):replace_result("ash", "clean-ash")
 RECIPE("ash3"):replace_result("ash", "clean-ash")
 
 RECIPE("planter-box"):replace_ingredient("calcinates", "clean-ash")
-
-RECIPE("biomass-dried-meat"):remove_unlock("compost"):set_fields{hidden = true}
+RECIPE("water-free"):remove_unlock("drilling-fluid-mk01"):set_fields({hidden = true, hidden_in_factoriopedia = true})
