@@ -13,3 +13,5 @@ RECIPE("jerky-to-ores"):add_unlock("molecular-decohesion")
 RECIPE("zinc-drilling-fluid"):add_unlock("electronics")
 
 data.raw.resource["ore-zinc"].minable.required_fluid = "zinc-drilling-fluid"
+
+require("prototypes.science-additions")
