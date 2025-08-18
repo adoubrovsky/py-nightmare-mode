@@ -24,16 +24,17 @@ TECHNOLOGY {
     },
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"kmauts"},
+    prerequisites = {"schrodinger-antelope"},
     effects = {},
     unit = {
-        count = 150,
+        count = 2500,
         ingredients = {
             {"automation-science-pack", 3},
             {"logistic-science-pack",   2},
             {"chemical-science-pack",   2},
+            {"production-science-pack", 2},
         },
-        time = 50
+        time = 250
     }
 }
 

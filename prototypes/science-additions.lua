@@ -1,7 +1,7 @@
-RECIPE("production-science-pack"):add_ingredient{
+RECIPE("py-science-pack-4"):add_ingredient{
   type = "item",
   name = "titan-tooth",
   amount = 3
 }
 
-TECHNOLOGY("production-science-pack"):add_prereq("titan")
+TECHNOLOGY("py-science-pack-mk04"):add_prereq("titan")

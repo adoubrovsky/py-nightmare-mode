@@ -34,3 +34,5 @@ for _,name in pairs(complexes) do
 	local complex = data.raw["assembling-machine"][name]
 	complex.allowed_module_categories = py.merge(complex.allowed_module_categories, new_modules)
 end
+
+require("prototypes.science-additions")
