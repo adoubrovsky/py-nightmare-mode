@@ -26,6 +26,14 @@ ITEM {
   stack_size = 20,
 }
 
+ITEM {
+  type = "item",
+  name = "titan-tooth",
+  icon = "__py-nightmare-mode__/graphics/icons/titan-tooth.png",
+  icon_size = 64,
+  stack_size = 20,
+}
+
 RECIPE {
   type = "recipe",
   name = "full-render-big-brain",
@@ -44,7 +52,7 @@ RECIPE {
     {
       type = "item",
       name = "brain",
-      amount = 10
+      amount = 200
     }
   }
 }:add_unlock("titan")
@@ -69,7 +77,8 @@ py.autorecipes {
 				{name = "chitin",          amount = BASE_SKIN},
 				{name = "guts",            amount = BASE_GUTS},
 				{name = "arthropod-blood", amount = BASE_BLOOD},
-				{name = "big-brain",           amount = BASE_BRAIN}
+				{name = "big-brain",           amount = BASE_BRAIN},
+				{name = "titan-tooth", amount = BASE_SPECIAL}
 			},
 			crafting_speed = 30,
 			tech = "titan",
