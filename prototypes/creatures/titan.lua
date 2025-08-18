@@ -13,7 +13,6 @@ data:extend{
         type = "module-category",
         name = "titan"
     },
-
 }
 
 TECHNOLOGY {
@@ -25,7 +24,7 @@ TECHNOLOGY {
     },
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"schrodinger-antelope"},
+    prerequisites = {"kmauts"},
     effects = {},
     unit = {
         count = 150,
@@ -33,7 +32,6 @@ TECHNOLOGY {
             {"automation-science-pack", 3},
             {"logistic-science-pack",   2},
             {"chemical-science-pack",   2},
-            {"production-science-pack", 2},
         },
         time = 50
     }
